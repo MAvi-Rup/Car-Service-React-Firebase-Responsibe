@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from '../../Shared/Header/Header';
+import Experts from '../Experts/Experts';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
-            <h1>Home Component</h1>
+            <Services></Services>
+            <Experts></Experts>
+            
         </div>
     );
 };
